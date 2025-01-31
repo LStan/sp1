@@ -68,7 +68,7 @@ cd program && cargo prove build
 
 which will output the compiled ELF to the file `program/elf/riscv32im-succinct-zkvm-elf`. 
 
-Note: the `build.rs` file in the `script` directory will use run the above command automatically to build the ELF, meaning you don't have to manually run `cargo prove build` every time you make a change to the program!
+Note: the `build.rs` file in the `script` directory will run the above command automatically to build the ELF, meaning you don't have to manually run `cargo prove build` every time you make a change to the program!
 
 ## Execute
 
